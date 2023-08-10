@@ -27,6 +27,12 @@ const handleUserInput = function (key) {
   if (key === '\x64') {
     connection.write("Move: right")
   }
+  if (key === '\x71') {
+    connection.write("Say: :3")
+  }
+  if (key === '\x65') {
+    connection.write("Say: meow")
+  }
 };
 
 module.exports = setupInput
