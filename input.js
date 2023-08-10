@@ -11,28 +11,28 @@ const setupInput = (conn) => {
   return stdin;
 };
 
-const handleUserInput = function (key) {
+const handleUserInput = function(key) {
   if (key === '\u0003') {
     process.exit();
   }
   if (key === '\x77') {
-    connection.write("Move: up")
+    connection.write("Move: up");
   }
   if (key === '\x61') {
-    connection.write("Move: left")
+    connection.write("Move: left");
   }
   if (key === '\x73') {
-    connection.write("Move: down")
+    connection.write("Move: down");
   }
   if (key === '\x64') {
-    connection.write("Move: right")
+    connection.write("Move: right");
   }
   if (key === '\x71') {
-    connection.write("Say: :3")
+    connection.write("Say: :3");
   }
   if (key === '\x65') {
-    connection.write("Say: meow")
+    connection.write("Say: meow");
   }
 };
 
-module.exports = setupInput
+module.exports = setupInput;
