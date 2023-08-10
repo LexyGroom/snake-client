@@ -8,7 +8,7 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["Gameplay"](https://imgur.com/a/eGjCFj7)
+!["Gameplay"](https://i.imgur.com/irrRSdM.png)
 
 ## Getting Started
 
